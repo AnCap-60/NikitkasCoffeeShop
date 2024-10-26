@@ -14,7 +14,7 @@ public class NextFloor : MonoBehaviour
 		if (player)
 		{
 			float dist = Vector3.Distance(player.transform.position, transform.position);
-			if (dist < 5)
+			if (dist < 10)
 			{
 				ShowCanGo();
 				if (Input.GetMouseButtonDown(0))
