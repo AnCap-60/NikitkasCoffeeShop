@@ -1,11 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.Sprites;
 using UnityEngine;
 
 public class ThrowCoffee : MonoBehaviour
 {
-    [SerializeField] GameObject player;
+	[SerializeField] GameObject player;
 
 	[SerializeField] GameObject textObject;
 

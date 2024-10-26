@@ -1,6 +1,5 @@
-using TMPro;
-using UnityEngine;
 using Player;
+using UnityEngine;
 
 public class PickupCoffee : MonoBehaviour
 {
