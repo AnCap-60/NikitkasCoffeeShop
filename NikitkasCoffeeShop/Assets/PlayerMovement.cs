@@ -13,11 +13,11 @@ namespace Player
 
 		Vector3 velocity;
 
-		bool isGrounded;
-
 		// Update is called once per frame
 		void Update()
 		{
+			if (Input.GetKeyDown(KeyCode.Escape))
+				Application.Quit();
 
 			float x = Input.GetAxis("Horizontal");
 			float z = Input.GetAxis("Vertical");
@@ -29,7 +29,6 @@ namespace Player
 			velocity.y += gravity * Time.deltaTime;
 
 			controller.Move(velocity * Time.deltaTime);
-
 		}
 	}
 }
