@@ -13,7 +13,7 @@ public class ThrowCoffee : MonoBehaviour
 			float dist = Vector3.Distance(player.transform.position, transform.position);
 			if (dist < 5)
 			{
-				var cup = player.GetComponentInChildren<PickupCoffee>();
+				var cup = player.GetComponentInChildren<PickupObject>();
 				if (cup != null)
 				{
 					ShowCanThrow();
@@ -39,7 +39,7 @@ public class ThrowCoffee : MonoBehaviour
 		textObject.SetActive(true);
 	}
 
-	void ThrowCupFromPlayer(PickupCoffee cup)
+	void ThrowCupFromPlayer(PickupObject cup)
 	{
 		cup.ThrowAway();
 	}

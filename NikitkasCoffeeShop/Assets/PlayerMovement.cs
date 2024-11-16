@@ -13,6 +13,8 @@ namespace Player
 
 		Vector3 velocity;
 
+		public Quests Quests;
+
 		// Update is called once per frame
 		void Update()
 		{

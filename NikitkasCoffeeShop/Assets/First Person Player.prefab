@@ -94,6 +94,7 @@ GameObject:
   - component: {fileID: 1927095934725912877}
   - component: {fileID: 1927095934725912878}
   - component: {fileID: 1927095934725912879}
+  - component: {fileID: 4467330200746253954}
   m_Layer: 0
   m_Name: First Person Player
   m_TagString: Player
@@ -161,6 +162,19 @@ MonoBehaviour:
   controller: {fileID: 1927095934725912878}
   speed: 4
   gravity: -15
+  Quests: {fileID: 4467330200746253954}
+--- !u!114 &4467330200746253954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927095934725912876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 868314d16da63e442b8eefa5927db6d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1927095934754023317
 GameObject:
   m_ObjectHideFlags: 0

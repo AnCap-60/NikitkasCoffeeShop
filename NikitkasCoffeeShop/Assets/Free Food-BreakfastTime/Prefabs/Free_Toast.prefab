@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 2324215006311905154}
   - component: {fileID: 1724490180424202279}
   - component: {fileID: 3461695705599806701}
+  - component: {fileID: 8811357509795963045}
+  - component: {fileID: 4381025955541491799}
   m_Layer: 0
   m_Name: Free_Toast
   m_TagString: Untagged
@@ -83,3 +85,41 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8811357509795963045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3101455771090169144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b0cce30efc62bd4f9c76e514ab8cd6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localName: "\u041B\u043E\u043C\u043E\u0442\u044C \u0445\u043B\u0435\u0431\u0430
+    \u0440\u0443\u0441\u0441\u043A\u043E\u0433\u043E"
+  ingredient: 1
+  player: {fileID: 0}
+  textObject: {fileID: 0}
+--- !u!65 &4381025955541491799
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3101455771090169144}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.08, y: 0.011999998, z: 0.080000006}
+  m_Center: {x: 0.000000014901161, y: 0.006000234, z: 0.012741943}

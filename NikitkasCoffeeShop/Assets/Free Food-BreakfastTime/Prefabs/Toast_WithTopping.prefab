@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9200251677582543251}
+  - component: {fileID: 4300838305933293902}
+  - component: {fileID: 3210686779310442638}
   m_Layer: 0
   m_Name: Toast_WithTopping
   m_TagString: Untagged
@@ -34,6 +36,43 @@ Transform:
   - {fileID: 2437464013683337109}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4300838305933293902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9200251677582543248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44b9994892264f0bb77093018735dff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localName: "\u0411\u0443\u0442\u0435\u0440\u0431\u0440\u043E\u0434"
+  player: {fileID: 0}
+  playersHand: {fileID: 0}
+  textObject: {fileID: 0}
+--- !u!65 &3210686779310442638
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9200251677582543248}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.102158464, y: 0.023985237, z: 0.104679585}
+  m_Center: {x: -0.0023014606, y: 0.010824606, z: 0.016039466}
 --- !u!1001 &9200251676976097747
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -102,7 +141,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6739996498533082583, guid: 8d74c23ee08ab4d6f813b8d482261814, type: 3}
+    - {fileID: 842907419227752838, guid: 8d74c23ee08ab4d6f813b8d482261814, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -180,7 +221,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Free_CheeseSlice
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 655734467767550787, guid: fe5f6a78c67ef407dad09193266da004, type: 3}
+    - {fileID: 3190997399511749784, guid: fe5f6a78c67ef407dad09193266da004, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -258,7 +301,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Free_Toast
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8811357509795963045, guid: e6538f98d92f74646babcddcd6af60ae, type: 3}
+    - {fileID: 4381025955541491799, guid: e6538f98d92f74646babcddcd6af60ae, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
